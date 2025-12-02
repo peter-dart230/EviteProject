@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Arimo";
+    src: url("Arimo.ttf");
+}
+
+.container {
+    font-family: "Arimo";
+    width: 300px;
+    height: 125px;
+    border: solid gold;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+    position: relative;
+    left: 500px;
+}
+
+.container2 {
+    font-family: "Arimo";
+    background-color: cadetblue;
+    width: 600px;
+    height: 125px;
+    border: solid gold;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 340px;
+}
+
+body {
+    background-image: url(sky.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sketchcont {
+    position: relative;
+    left: 250px;
+}
+
+#LOC {
+    font-family: "Arimo";
+    width:175px;
+    height:100px;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid gold;
+    position: relative;
+    top: 25px;
+    left: 375px;
+}
+
+#DATE {
+    font-family: "Arimo";
+    width:175px;
+    height:100px;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid gold;
+    position: relative;
+    top:-81px;
+    left: 575px;
+}
+
+#TIME {
+    font-family: "Arimo";
+    width:175px;
+    height:100px;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid gold;
+    position: relative;
+    top:-186px;
+    left:775px;
+}
+
+#tele1 {
+    height: 600px;
+    width: 200px;
+    position: relative;
+    top: -1250px;
+    left: 1000px;
+}
+
+#tele2 {
+    transform: scaleX(-1);
+    height: 600px;
+    width: 200px;
+    position: relative;
+    top:-650px;
+    left: 100px;
+}
+
+#RSVP {
+    font-family: "Arimo";
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid gold;
+    position: relative;
+    top: -1375px;
+    left: 560px;
+}
